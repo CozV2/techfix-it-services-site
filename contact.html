@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TechFix IT Services - Contact</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" type="image/png" href="img/logotech.png">
+  
+</head>
+<body>
+<header>
+ <div class="container navbar">
+    <div class="logo">
+      <img src="img/logotech.png" alt="TechFix IT Services logo" />
+    </div>
+
+    <button class="menu-toggle" id="menu-toggle" aria-label="Open menu">
+      ☰
+    </button>
+
+    <nav id="main-nav">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="pricing.html">Pricing</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+  </header>
+
+
+  <section class="hero page-hero">
+    <div class="container">
+      <div class="page-hero-content">
+        <h1>Contact Us</h1>
+        <p>
+          Get in touch with TechFix IT Services for support requests, pricing information,
+          or any questions about our IT solutions.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container contact-grid">
+      <div class="contact-card">
+        <h2>Send Us a Message</h2>
+        <p class="contact-intro">
+          Fill out the form below and our team will get back to you as soon as possible.
+        </p>
+
+        <form class="contact-form">
+          <div class="form-row">
+            <div class="form-group">
+              <label for="name">Full Name</label>
+              <input type="text" id="name" name="name" placeholder="Enter your full name" required />
+            </div>
+
+            <div class="form-group">
+              <label for="email">Email Address</label>
+              <input type="email" id="email" name="email" placeholder="Enter your email address" required />
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="phone">Phone Number</label>
+              <input type="text" id="phone" name="phone" placeholder="Enter your phone number" />
+            </div>
+
+            <div class="form-group">
+              <label for="service">Service Needed</label>
+              <select id="service" name="service">
+                <option value="">Select a service</option>
+                <option value="it-support">IT Support</option>
+                <option value="network-setup">Network Setup</option>
+                <option value="cybersecurity">Cybersecurity</option>
+                <option value="cloud-solutions">Cloud Solutions</option>
+                <option value="consulting">IT Consulting</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="6" placeholder="Write your message here..." required></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-primary">Send Message</button>
+        </form>
+      </div>
+
+      <div class="contact-card">
+        <h2>Contact Information</h2>
+        <div class="contact-info-list">
+          <div class="contact-info-item">
+            <h3>Email</h3>
+            <p>support@techfixitservices.com</p>
+          </div>
+
+          <div class="contact-info-item">
+            <h3>Phone</h3>
+            <p>+351 912 345 678</p>
+          </div>
+
+          <div class="contact-info-item">
+            <h3>Office</h3>
+            <p>45 Business Avenue, Lisbon, Portugal</p>
+          </div>
+
+          <div class="contact-info-item">
+            <h3>Working Hours</h3>
+            <p>Monday - Friday: 09:00 - 18:00</p>
+            <p>Saturday: 10:00 - 13:00</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section alt-section">
+    <div class="container">
+      <div class="section-title">
+        <h2>Find Our Office</h2>
+        <p>
+          Visit our office or contact us remotely for fast IT assistance and technical support.
+        </p>
+      </div>
+
+      <div class="map-wrapper">
+        <iframe
+          src="https://www.google.com/maps?q=Lisbon,Portugal&output=embed"
+          width="100%"
+          height="400"
+          style="border:0;"
+          allowfullscreen=""
+          loading="lazy">
+        </iframe>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2026 TechFix IT Services. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
